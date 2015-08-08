@@ -1,0 +1,16 @@
+{
+  "name": "apiauth",
+  "version": "1.0.0",
+  "description": "Token-based authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "authentication",
+    "token"
+  ],
+  "author": "Stanley Yang",
+  "license": "ISC"
+}
