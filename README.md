@@ -1,4 +1,4 @@
-#Node Token Authentication
+#Node Token Authentication ![Build passing](https://travis-ci.org/syang019/token-based-auth-nodejs.svg?branch=master)
 
 ###Objectives
 
