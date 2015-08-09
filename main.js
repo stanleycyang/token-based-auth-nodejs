@@ -6,7 +6,6 @@ var express = require('express'),
     mongoose = require('mongoose'),
     bodyParser = require('body-parser');
 
-/*var sessions = require('./app/routes/SessionRoutes');*/
 
 // Database
 var database = require('./config/db');
@@ -21,9 +20,11 @@ app.use(cookieParser());
 // Routes
 var index = require('./app/routes/index');
 var users = require('./app/routes/UserRoutes');
+var sessions = require('./app/routes/SessionRoutes');
 
 app.use('/', index);
 app.use('/api/users', users);
+app.use('/api/authenticate', sessions);
 
 //app.use('/api/users', users);
 /*app.use('/api/sessions', sessions);*/

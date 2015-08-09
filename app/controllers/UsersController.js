@@ -15,7 +15,7 @@ exports.index = function(request, response, next){
 
 exports.create = function(request, response, next){
     var user = new User({
-        name: request.body.name,
+        name: request.body.name.toLowerCase(),
         password: request.body.password
     });
 
