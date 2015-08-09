@@ -1,3 +1,4 @@
+require('dotenv').load();
 var jwt = require('jsonwebtoken');
 
 exports.validateToken = function(request, response, next){

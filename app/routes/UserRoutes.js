@@ -7,9 +7,9 @@ router.post('/', function(request, response, next){
     UsersController.create(request, response, next);
 });
 
-/*router.use(function(request, response, next){*/
-    //SessionsHelper.validateToken(request, response, next);
-/*});*/
+router.use(function(request, response, next){
+    SessionsHelper.validateToken(request, response, next);
+});
 
 router.get('/', function(request, response, next){
     UsersController.index(request, response, next);
