@@ -1,4 +1,4 @@
-#Node Token Authentication ![Build passing](https://travis-ci.org/syang019/token-based-auth-nodejs.svg?branch=master)
+#Node Token Authentication ![Build passing](https://travis-ci.org/syang019/token-based-auth-nodejs.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/syang019/token-based-auth-nodejs/badge.svg?branch=master&service=github)](https://coveralls.io/github/syang019/token-based-auth-nodejs?branch=master)
 
 ###Objectives
 
