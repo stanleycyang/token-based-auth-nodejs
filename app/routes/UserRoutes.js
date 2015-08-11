@@ -3,28 +3,16 @@ var express = require('express'),
     UsersController = require('../controllers/UsersController'),
     SessionsHelper = require('../helpers/SessionsHelper');
 
-router.post('/', function(request, response, next){
-    UsersController.create(request, response, next);
-});
+router.post('/', UsersController.create);
 
-router.use(function(request, response, next){
-    SessionsHelper.validateToken(request, response, next);
-});
+router.use(SessionsHelper.validateToken);
 
-router.get('/', function(request, response, next){
-    UsersController.index(request, response, next);
-});
+router.get('/', UsersController.index);
 
-router.get('/:user_id', function(request, response, next){
-    UsersController.show(request, response, next);
-});
+router.get('/:user_id', UsersController.show);
 
-router.put('/:user_id', function(request, response, next){
-    UsersController.update(request, response, next);
-});
+router.put('/:user_id', UsersController.update);
 
-router.delete('/:user_id', function(request, response, next){
-    UsersController.destroy(request, response, next);
-});
+router.delete('/:user_id', UsersController.destroy);
 
 module.exports = router;
