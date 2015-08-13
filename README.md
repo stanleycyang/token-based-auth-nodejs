@@ -4,8 +4,8 @@
 
 - Understand the benefits of tokens
 - Understand token auth flow
-- Create a user model
 - Understand JSON web tokens
+- Create a user model
 - Authenticate a user using JWTs
 
 ###Benefits of tokens
