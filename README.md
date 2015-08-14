@@ -105,4 +105,4 @@ HMACSHA256(encodedString, 'secret');
 // Final piece
 03f329983b86f7d9a9f5fef85305880101d5e302afafa20154d094b229f75773
 ```
-
+###This repo contains code about token authentication
